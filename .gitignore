@@ -1,0 +1,6 @@
+env
+runs
+yolo/card
+*.mp4
+
+*.pt

@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/yolo/data/train
+val: /content/drive/MyDrive/yolo/data/train
+test: /content/drive/MyDrive/yolo/data/test
+
+nc: 54
+names: ['Clubs 10', 'Clubs 2', 'Clubs 3', 'Clubs 4', 'Clubs 5', 'Clubs 6', 'Clubs 7', 'Clubs 8', 'Clubs 9', 'Clubs Ace', 'Clubs Jack', 'Clubs King', 'Clubs Queen', 'Clubs', 'Diamonds 10', 'Diamonds 2', 'Diamonds 3', 'Diamonds 4', 'Diamonds 5', 'Diamonds 6', 'Diamonds 7', 'Diamonds 8', 'Diamonds 9', 'Diamonds Ace', 'Diamonds Jack', 'Diamonds King', 'Diamonds Queen', 'Hearts 10', 'Hearts 2', 'Hearts 3', 'Hearts 4', 'Hearts 5', 'Hearts 6', 'Hearts 7', 'Hearts 8', 'Hearts 9', 'Hearts Ace', 'Hearts Jack', 'Hearts King', 'Hearts Queen', 'Joker', 'Spades 10', 'Spades 2', 'Spades 3', 'Spades 4', 'Spades 5', 'Spades 6', 'Spades 7', 'Spades 8', 'Spades 9', 'Spades Ace', 'Spades Jack', 'Spades King', 'Spades Queen']
+
+roboflow:
+  workspace: samanthahuerta1965-outlook-com
+  project: cards-d5nh5
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/samanthahuerta1965-outlook-com/cards-d5nh5/dataset/1

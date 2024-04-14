@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<company_n &le; 0.5<br/>gini = 0.469<br/>samples = 16<br/>value = [6, 10]>, fillcolor="#b0d8f5"] ;
+1 [label=<job_n &le; 0.5<br/>gini = 0.375<br/>samples = 4<br/>value = [3, 1]>, fillcolor="#eeab7b"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<degree_n &le; 0.5<br/>gini = 0.5<br/>samples = 2<br/>value = [1, 1]>, fillcolor="#ffffff"] ;
+1 -> 2 ;
+3 [label=<gini = 0.0<br/>samples = 1<br/>value = [1, 0]>, fillcolor="#e58139"] ;
+2 -> 3 ;
+4 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 1]>, fillcolor="#399de5"] ;
+2 -> 4 ;
+5 [label=<gini = 0.0<br/>samples = 2<br/>value = [2, 0]>, fillcolor="#e58139"] ;
+1 -> 5 ;
+6 [label=<company_n &le; 1.5<br/>gini = 0.375<br/>samples = 12<br/>value = [3, 9]>, fillcolor="#7bbeee"] ;
+0 -> 6 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+7 [label=<gini = 0.0<br/>samples = 6<br/>value = [0, 6]>, fillcolor="#399de5"] ;
+6 -> 7 ;
+8 [label=<job_n &le; 0.5<br/>gini = 0.5<br/>samples = 6<br/>value = [3, 3]>, fillcolor="#ffffff"] ;
+6 -> 8 ;
+9 [label=<gini = 0.0<br/>samples = 2<br/>value = [0, 2]>, fillcolor="#399de5"] ;
+8 -> 9 ;
+10 [label=<degree_n &le; 0.5<br/>gini = 0.375<br/>samples = 4<br/>value = [3, 1]>, fillcolor="#eeab7b"] ;
+8 -> 10 ;
+11 [label=<gini = 0.0<br/>samples = 2<br/>value = [2, 0]>, fillcolor="#e58139"] ;
+10 -> 11 ;
+12 [label=<job_n &le; 1.5<br/>gini = 0.5<br/>samples = 2<br/>value = [1, 1]>, fillcolor="#ffffff"] ;
+10 -> 12 ;
+13 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 1]>, fillcolor="#399de5"] ;
+12 -> 13 ;
+14 [label=<gini = 0.0<br/>samples = 1<br/>value = [1, 0]>, fillcolor="#e58139"] ;
+12 -> 14 ;
+}
